@@ -30,7 +30,7 @@ export function middleware(request: NextRequest) {
   // if (
   //   [
   //     '/manifest.json',
-  //     '/swlogo256.ico',
+  //     '/favicon.ico',
   //     // Your other files in `public`
   //   ].includes(pathname)
   // )
@@ -58,5 +58,5 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   // Matcher ignoring `/_next/` and `/api/`
-  matcher: ["/((?!api|_next/static|_next/image|swlogo256.ico|resume.pdf).*)"],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|resume.pdf).*)"],
 };

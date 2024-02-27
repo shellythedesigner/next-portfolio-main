@@ -56,8 +56,8 @@ export default function Project({
                 <FaGithub />
               </a>
               <a
-                data-tooltip-id="warning"
-                data-tooltip-content="Because I use free instance on Render, it may take up some time to start server."
+                // data-tooltip-id="warning"
+                // data-tooltip-content="View it"
                 href={links.live}
                 aria-label="link to project's webpage"
                 target="_blank"

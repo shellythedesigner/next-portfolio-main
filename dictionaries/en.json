@@ -39,27 +39,36 @@
     "p3": "While learning this new, more technical skill initially felt daunting and challenging, I quickly fell in love with the impact of effective UX design. Since then, I made the decision to pursue further studies in UX design and eventually embarked on my journey as a UX designer."
   },
   "skills": [
+
+    "Design Process",
+    "Sketching",
+    "Wireframing",
+    "Prototyping",
+    "Interviewing",
+    "Figma",
+    "Adobe Ai",
+    "Adobe Ps",
+    "Adobe Xd",
+    "Adobe Ae",
+    "Sketch",
+    "Invision",
+    "Usability testing",
+    "Card sorting",
+    "A/B testing",
+    "Solidworks",
+    "Keyshots",
+    "Rhinoceros",
     "HTML",
     "CSS",
     "JavaScript",
     "TypeScript",
-    "React",
-    "Next.js",
-    "React Query",
-    "Node.js",
-    "Express",
-    "Git",
-    "SCSS",
-    "Tailwind",
-    "Styled Components",
-    "Framer Motion",
-    "MongoDB",
-    "Supabase"
+    "React"
+
   ],
   "projects": [
     {
       "title": "Building Block",
-      "description": "Support students in developing foreign language skills",
+      "description": "A project that redesigns and develops a platform to support students in developing foreign language skills.",
       "tags": ["UX/UI", "Web Platform"],
       "links": {
         "gh": "https://github.com/rafetbasturk/odinbook",
@@ -68,7 +77,7 @@
     },
     {
       "title": "Gear",
-      "description": "Gear up student's learning journey",
+      "description": "Redesigns the entire assessment platform for the university students.",
       "tags": ["UX/UI", "Web Platform"],
       "links": {
         "gh": "https://github.com/rafetbasturk/odinbook",
@@ -77,7 +86,7 @@
     },
     {
       "title": "Forward Motion Yoga",
-      "description": "Redesign a yoga studio website",
+      "description": "The project helps an actual client redesign the website of a yoga studio.",
       "tags": ["UX/UI", "Web Design"],
       "links": {
         "gh": "https://github.com/rafetbasturk/odinbook",
@@ -86,7 +95,7 @@
     },
     {
       "title": "Wild House",
-      "description": "Changes the way you understand reptiles",
+      "description": "This is a capstone project in a graduate program. I designed a website focused on educating potential and current pet owners about the behavior of pet reptiles.",
       "tags": ["UX/UI", "Web Design"],
       "links": {
         "gh": "https://github.com/rafetbasturk/odinbook",
