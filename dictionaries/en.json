@@ -59,7 +59,7 @@
   "projects": [
     {
       "title": "Building Block",
-      "description": "A MERN project that clones some Facebook functionalities. Core functionalities in this project are sign in/sign up, authentication, user search and image upload. Demo user is available.",
+      "description": "Support students in developing foreign language skills",
       "tags": ["UX/UI", "Web Platform"],
       "links": {
         "gh": "https://github.com/rafetbasturk/odinbook",
@@ -68,7 +68,7 @@
     },
     {
       "title": "Gear",
-      "description": "This is an assignment in The Odin Project. I practiced React Hooks (useReducer, useContext, useEffect, useState, useRef, forwardRef) besides Firebase Storage and Firestore.",
+      "description": "Gear up student's learning journey",
       "tags": ["UX/UI", "Web Platform"],
       "links": {
         "gh": "https://github.com/rafetbasturk/odinbook",
@@ -86,7 +86,7 @@
     },
     {
       "title": "Wild House",
-      "description": "Factory functions and Test Driven Development were my main focus on this Odin Project built with Webpack.",
+      "description": "Changes the way you understand reptiles",
       "tags": ["UX/UI", "Web Design"],
       "links": {
         "gh": "https://github.com/rafetbasturk/odinbook",
