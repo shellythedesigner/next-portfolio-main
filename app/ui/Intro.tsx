@@ -41,12 +41,12 @@ export default function Intro() {
             >
               <Image
                 src={pic}
-                alt="rafet's portrait"
-                width={192}
-                height={192}
+                alt="heroimage"
+                width={240}
+                height={240}
                 quality={90}
                 priority={true}
-                className="rounded-full h-24 w-24 border-[0.35rem] border-dark-secondary-base shadow-xl object-cover"
+                className="rounded-full border-[0.35rem] border-dark-secondary-base shadow-xl object-cover"
               />
             </motion.div>
           </div>
