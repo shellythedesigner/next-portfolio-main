@@ -1,0 +1,173 @@
+{
+  "links": [
+    {
+      "name": "Ana Sayfa",
+      "section": "Home",
+      "hash": "#home"
+    },
+    {
+      "name": "Hakkında",
+      "section": "About",
+      "hash": "#about"
+    },
+    {
+      "name": "Projeler",
+      "section": "Projects",
+      "hash": "#projects"
+    },
+    {
+      "name": "Yetenekler",
+      "section": "Skills",
+      "hash": "#skills"
+    },
+    {
+      "name": "İletişim",
+      "section": "Contact",
+      "hash": "#contact"
+    }
+  ],
+  "intro": {
+    "text": "Merhaba, ben Rafet. Web geliştirmeye 2019 yılında çevrimiçi kurslar alarak başladım. 'MERN Stack' teknolojilerinin gücünden yararlanarak web uygulamaları geliştiriyorum.",
+    "btn1": "İletişim",
+    "btn2": "CV",
+    "heading": "Giriş"
+  },
+  "about": {
+    "heading": "Hakkımda",
+    "p1": "Web geliştirme dünyasına yolculuğum kodlamaya olan merakımla başladı ve ReactJS konusunda uzmanlaşmaya olan bağımlılığa dönüştü. Kapsadığı teknolojileri sürekli öğrenme yolculuğundayım. Çekirdek yığınım MongoDB, Express, React ve Node.js olmakla birlikte boş zamanlarımda yeni teknolojiler öğrenerek kendime birşeyler katmayı seviyorum. Şu an Next.js ve Typescript konularında kendimi geliştiriyorum.",
+    "p2": "",
+    "list": [
+      {
+        "HTML, CSS, JavaScript, React": " kullanarak Statik Web Siteleri (Frontend),"
+      },
+      {
+        "MongoDB, Express, React ve Node.js": " ile Tam Ölçekli Web Uygulamaları (Frontend + Backend),"
+      },
+      {
+        "Node.js ve Express": " kullanarak RESTful Web API'leri (Backend) geliştirmekteyim."
+      }
+    ]
+  },
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "React Query",
+    "Node.js",
+    "Express",
+    "Git",
+    "SCSS",
+    "Tailwind",
+    "Styled Components",
+    "Framer Motion",
+    "MongoDB",
+    "Supabase"
+  ],
+  "projects": [
+    {
+      "title": "Odinbook",
+      "description": "Bazı Facebook işlevlerini klonlayan bir MERN projesi. Bu projedeki temel işlevler oturum açma/kaydolma, kimlik doğrulama, kullanıcı arama ve resim yüklemedir. Demo kullanıcısı mevcuttur.",
+      "tags": ["MongoDB", "Express", "React", "NodeJS", "Styled Components"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/odinbook",
+        "live": "https://rafet-odinbook.onrender.com/"
+      }
+    },
+    {
+      "title": "Where's Waldo? (A Photo Tagging App)",
+      "description": "Bu Odin Projesi'ndeki bir görevdir. Firebase Storage ve Firestore'un yanı sıra React Hooks (useReducer, useContext, useEffect, useState, useRef, forwardRef) uygulamalarını çalıştım.",
+      "tags": ["React", "Firebase", "Vanilla CSS"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/odin-waldo",
+        "live": "https://odin-waldo.vercel.app/"
+      }
+    },
+    {
+      "title": "Shopping Cart",
+      "description": "Odin Projesi için kodladığım basit bir alışveriş sepeti. React'ta ContextApi kullandım.",
+      "tags": ["React", "Vanilla CSS"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/odin-shopping-cart",
+        "live": "https://rafet-shopping-cart.netlify.app/"
+      }
+    },
+    {
+      "title": "Battleship",
+      "description": "Webpack ile oluşturulan bu Odin Projesinde fabrika fonksiyonları ve Test Odaklı Geliştirme ana odak noktamdı.",
+      "tags": ["HTML", "Vanilla CSS", "Vanilla JS", "Webpack"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/odin-battleship",
+        "live": "https://rafetbattleship.netlify.app/"
+      }
+    },
+    {
+      "title": "Where In The World?",
+      "description": "Bu, Frontend Mentor'da renk teması değiştirici mücadelesine sahip REST Ülkeler API'sine yönelik bir çözümdür.",
+      "tags": ["React", "React-router-dom", "SCSS"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/c37",
+        "live": "https://rafetbasturk-rest-countries.netlify.app/"
+      }
+    },
+    {
+      "title": "Todo App",
+      "description": "Aktif ve tamamlanmış yapılacaklar özelliğine sahip bir 'Frontend Mentor' görevi.",
+      "tags": ["HTML", "SCSS", "Jquery"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/c24/blob/main/index.html",
+        "live": "https://rafetbasturk.github.io/c24/"
+      }
+    },
+    {
+      "title": "Jobify",
+      "description": "",
+      "tags": [
+        "MongoDB",
+        "Express",
+        "React",
+        "NodeJS",
+        "Styled Components",
+        "React Query"
+      ],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/jobify-v2",
+        "live": "https://mern-jobify-v2-5nvt.onrender.com/"
+      }
+    },
+    {
+      "title": "Crowdfunding",
+      "description": "",
+      "tags": ["HTML", "SCSS", "Vanilla JS"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/c36",
+        "live": "https://rafetbasturk.github.io/c36/"
+      }
+    }
+  ],
+  "contact": {
+    "heading": "İletişim",
+    "text1": "İletişime geçmek için ",
+    "text2": " e-posta adresimi veya aşağıdaki formu kullanabilirsiniz.",
+    "email": "shellywu37@gmail.com",
+    "emailPlaceholder": "E-postanız",
+    "textareaPlaceholder": "Mesajınız"
+  },
+  "footer": {
+    "text": "Next.js(14.0.3), Typescript, Tailwindcss, Framer Motion & Resend kullanılarak geliştirilmiştir."
+  },
+  "metadata": {
+    "title": "Shelly Wu | UX Designer Portfolio",
+    "description": "UX and Industrial Designer",
+    "keywords": [
+      "Shelly Wu",
+      "Portfolio",
+      "UX and Industrial Designer",
+      "Next.js",
+      "React",
+      "JavaScript"
+    ]
+  }
+}

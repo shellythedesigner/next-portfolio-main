@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+.items-centered {
+  @apply flex items-center justify-center;
+}
+
+.borderBlack {
+  @apply border border-black/10;
+}
+
+.btn-primary {
+  @apply items-centered h-[54px] gap-2 px-7 py-3 transition active:scale-100 rounded-full focus:scale-105 disabled:bg-light-outline-base hover:scale-105 outline-none 
+  bg-light-primary-base
+  text-light-primary-onBase 
+  hover:bg-light-primary-container
+  hover:text-light-primary-onContainer
+  dark:bg-dark-primary-base
+  dark:text-dark-primary-onBase
+  dark:hover:bg-dark-primary-container
+  dark:hover:text-dark-primary-onContainer;
+}
+
+.btn-secondary {
+  @apply items-centered gap-2 px-7 py-3 rounded-full outline-none focus:scale-105 hover:scale-105 transition active:scale-100
+  bg-light-secondary-base
+  text-light-secondary-onBase 
+  hover:bg-light-secondary-container
+  hover:text-light-secondary-onContainer
+  dark:bg-dark-secondary-base
+  dark:text-dark-secondary-onBase
+  dark:hover:bg-dark-secondary-container
+  dark:hover:text-dark-secondary-onContainer;
+}
+
+.btn-icon {
+  @apply gap-2 p-4 rounded-full focus:scale-105 hover:scale-105 transition active:scale-100 outline-none 
+  bg-light-secondary-base
+  text-light-secondary-onBase 
+  hover:bg-light-secondary-container
+  hover:text-light-secondary-onContainer
+  dark:bg-dark-secondary-base
+  dark:text-dark-secondary-onBase
+  dark:hover:bg-dark-secondary-container
+  dark:hover:text-dark-secondary-onContainer;
+}
+
+.btn-theme {
+  @apply fixed right-4 bottom-4 w-12 h-12 shadow-2xl items-centered rounded-full backdrop-blur-[0.5rem] active:scale-95 transition-all 
+  bg-light-outline-base bg-opacity-20 dark:bg-dark-outline-base dark:bg-opacity-40;
+}
+
+.header {
+  @apply fixed top-0 left-1/2 -translate-x-1/2 w-full p-3 z-20 bg-opacity-70 backdrop-blur-[0.5rem] shadow-lg lg:top-6 lg:rounded-full lg:w-max sm:px-3
+  shadow-black/[0.03]
+  bg-light-secondary-container
+  dark:bg-dark-secondary-container;
+}
+
+.project {
+  @apply border border-black/5 rounded-lg overflow-hidden relative transition items-centered flex-col p-2 gap-4 lg:px-6 lg:py-4 lg:flex-row 
+  bg-light-primary-onBase
+  hover:bg-light-primary-container;
+}
+
+#warning {
+  background: theme(colors.light.primary.base);
+  max-width: 300px;
+}

@@ -1,0 +1,113 @@
+{
+  "links": [
+    {
+      "name": "Home",
+      "section": "Home",
+      "hash": "#home"
+    },
+    {
+      "name": "About",
+      "section": "About",
+      "hash": "#about"
+    },
+    {
+      "name": "Projects",
+      "section": "Projects",
+      "hash": "#projects"
+    },
+    {
+      "name": "Skills",
+      "section": "Skills",
+      "hash": "#skills"
+    },
+    {
+      "name": "Contact",
+      "section": "Contact",
+      "hash": "#contact"
+    }
+  ],
+  "intro": {
+    "text": "Hello, I'm Shelly. I'm a ux and industrial designer in Toronto.",
+    "btn1": "Contact me",
+    "btn2": "View my Resume",
+    "heading": "Intro"
+  },
+  "about": {
+    "heading": "About me",
+    "p1": "I began as an industrial designer, where I found my passion for design. I learned to understand the relationship between people and products, always putting users at the core of design problem-solving.",
+    "p2": "My path took an exciting turn when I had the opportunity to explore UX/UI design in a previous role. This experience made me realize that both UX design and industrial design have the same passion ❤️🔥 for making the world a better place for people.",
+    "p3": "While learning this new, more technical skill initially felt daunting and challenging, I quickly fell in love with the impact of effective UX design. Since then, I made the decision to pursue further studies in UX design and eventually embarked on my journey as a UX designer."
+  },
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "React Query",
+    "Node.js",
+    "Express",
+    "Git",
+    "SCSS",
+    "Tailwind",
+    "Styled Components",
+    "Framer Motion",
+    "MongoDB",
+    "Supabase"
+  ],
+  "projects": [
+    {
+      "title": "Building Block",
+      "description": "A MERN project that clones some Facebook functionalities. Core functionalities in this project are sign in/sign up, authentication, user search and image upload. Demo user is available.",
+      "tags": ["UX/UI", "Web Platform"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/odinbook",
+        "live": "https://www.shellywu.design/building-blocks"
+      }
+    },
+    {
+      "title": "Gear",
+      "description": "This is an assignment in The Odin Project. I practiced React Hooks (useReducer, useContext, useEffect, useState, useRef, forwardRef) besides Firebase Storage and Firestore.",
+      "tags": ["UX/UI", "Web Platform"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/odinbook",
+        "live": "https://www.shellywu.design/gear"
+      }
+    },
+    {
+      "title": "Forward Motion Yoga",
+      "description": "Redesign a yoga studio website",
+      "tags": ["UX/UI", "Web Design"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/odinbook",
+        "live": "https://www.shellywu.design/forward-motion-yoga-olf"
+      }
+    },
+    {
+      "title": "Wild House",
+      "description": "Factory functions and Test Driven Development were my main focus on this Odin Project built with Webpack.",
+      "tags": ["UX/UI", "Web Design"],
+      "links": {
+        "gh": "https://github.com/rafetbasturk/odinbook",
+        "live": "https://www.shellywu.design/wildhouse"
+      }
+    }
+  ],
+  "contact": {
+    "heading": "Contact me",
+    "text1": "Please contact me at ",
+    "text2": " or through this form.",
+    "email": "shellywu37@gmail.com",
+    "emailPlaceholder": "your email",
+    "textareaPlaceholder": "your message"
+  },
+  "footer": {
+    "text": "Built with Next.js(14.0.3), Typescript, Tailwindcss, Framer Motion & Resend."
+  },
+  "metadata": {
+    "title": "Shelly Wu | Personal Portfolio",
+    "description": "UX and Industrial Designer",
+    "keywords": ["Shelly Wu", "Portfolio", "UX Designer", "Industrial Designer", "React", "JavaScript"]
+  }
+}
