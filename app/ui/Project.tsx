@@ -47,14 +47,17 @@ export default function Project({
             </h3>
             <div className="flex gap-1">
               <Tooltip id="warning" />
-              <a
-                href={links.gh}
-                aria-label="link to project's github repo"
-                target="_blank"
-                className="p-3 text-lg transition bg-light-primary-onContainer text-light-primary-onBase hover:bg-light-primary-onBase hover:text-light-primary-onContainer rounded-full shadow-light-primary-onContainer  shadow-md"
-              >
-                <FaGithub />
-              </a>
+              {links.gh && (
+                <a
+                  href={links.gh}
+                  aria-label="link to project's github repo"
+                  target="_blank"
+                  className="p-3 text-lg transition bg-light-primary-onContainer text-light-primary-onBase hover:bg-light-primary-onBase hover:text-light-primary-onContainer rounded-full shadow-light-primary-onContainer  shadow-md"
+                >
+                  <FaGithub />
+                </a>
+              )}
+
               <a
                 // data-tooltip-id="warning"
                 // data-tooltip-content="View it"

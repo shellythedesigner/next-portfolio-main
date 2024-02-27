@@ -26,6 +26,7 @@ const setStaticImages = (projects: EntryProjects[]) => {
 
 const dictionaries: Record<Locale, () => Promise<Dictionary>> = {
   en: async () => {
+    //@ts-ignore
     const projects = setStaticImages(en.projects);
 
     return { ...en, projects } as Dictionary;
@@ -33,7 +34,7 @@ const dictionaries: Record<Locale, () => Promise<Dictionary>> = {
   tr: async () => {
     const projects = setStaticImages(tr.projects);
 
-    return { ...tr, projects } as Dictionary;
+    return { ...tr, projects } as unknown as Dictionary;
   },
 };
 

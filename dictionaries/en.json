@@ -71,7 +71,6 @@
       "description": "A project that redesigns and develops a platform to support students in developing foreign language skills.",
       "tags": ["UX/UI", "Web Platform"],
       "links": {
-        "gh": "https://github.com/rafetbasturk/odinbook",
         "live": "https://www.shellywu.design/building-blocks"
       }
     },
@@ -80,7 +79,7 @@
       "description": "Redesigns the entire assessment platform for the university students.",
       "tags": ["UX/UI", "Web Platform"],
       "links": {
-        "gh": "https://github.com/rafetbasturk/odinbook",
+        
         "live": "https://www.shellywu.design/gear"
       }
     },
@@ -89,7 +88,7 @@
       "description": "The project helps an actual client redesign the website of a yoga studio.",
       "tags": ["UX/UI", "Web Design"],
       "links": {
-        "gh": "https://github.com/rafetbasturk/odinbook",
+        
         "live": "https://www.shellywu.design/forward-motion-yoga-olf"
       }
     },
@@ -98,7 +97,6 @@
       "description": "This is a capstone project in a graduate program. I designed a website focused on educating potential and current pet owners about the behavior of pet reptiles.",
       "tags": ["UX/UI", "Web Design"],
       "links": {
-        "gh": "https://github.com/rafetbasturk/odinbook",
         "live": "https://www.shellywu.design/wildhouse"
       }
     }
